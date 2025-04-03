@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação Do CSS</title>
+    <link rel="shortcut icon" href="img/css-3.ico" type="image/x-icon">
+    <link rel="stylesheet" href="DocumentaçãoDoCSS.css">
+</head>
+<body>
+    <div class="center" id="titulo">
+        <h1>Documentação do CSS</h1>
+    </div>
+
+    <header>
+        <div class="html">
+            <img class="imghtml" src="img/62b221ef038aad4d3ed7ca2e.png" alt="">
+        </div>
+
+        <div id="historia">
+            <hr id="hrhistoria">
+            <h1 id="titulohist">HISTÓRIA</h1>
+            <hr id="hrhistoria">
+            <br>
+        
+            <p>A internet como conhecemos hoje, é fruto de uma evolução constante e gradativa desde sua invenção. Desde seus protocolos até suas linguagens de desenvolvimento sofreram tais mudanças e com certeza, um dos principais componentes dessa grande estrutura mundial é o HTML. Mas espera ai, não iamos falar sobre CSS?</p>
+            <br>
+            <p>Pois bem, uma coisa leva a outra. Vejamos o começo de tudo, a linguagem de marcação surgindo para solucionar o problema de um cientista que queria uma forma de divulgar seus artigos na rede, para isso, ele criou  algo simples, restrito a comunidade científica e usado apenas para estrutura o conteúdo e exibir um texto de forma coerente.</p>
+            <br>
+            <p>Mas a linguagem usada pelos cientistas se tornou padrão da Internet, e com o tempo, passou a ser mais testada. Todos queriam imagens, cores e designer avançado. E o HTML antigo não suportava isso, então foram adicionadas novas tags. Isso solucionou o problema por um tempo, mas começou a surgir outro grande problema. Com os novos recursos, designers e desenvolvedores de websites, abusavam da criatividade e enchiam suas paginas de fontes e estilos visuais, mas para alterar uma linha até que era mais simples, porem quando se queria mudar a cor de um link, por exemplo, e esse link estava em 300 paginas diferentes, era trabalho manual mesmo, um por um, tag por tag.</p>
+            <br>
+            <p>Misturar estilo e estrutura não era mais interessante, e foi assim que em 1995, Håkon Wium Lie e Bert Bos apresentaram a proposta do CSS(Cascading Style Sheets) que logo foi apoiada pela W3C. A idéia geral era, utilizar HTML somente para estruturar o website e a tarefa de apresentação fica com o CSS disposto em um arquivo separado .css ou no proprio HTML demarcado pelas tags.</p>
+            <br>
+            <p>Os conceitos de estilização com css em sua maioria ainda não são seguidos totalmente, devido a problemas de compatibilidade entre browsers e muitas vezes até falta de um conhecimento maior dos desenvolvedores, mas a W3C trabalha nos standards, que visam tornar o desenvolvimento padrão e tambem exigir dos navegadores uma interpretação adequada e compatível.</p><a href="https://www.devmedia.com.br/a-origem-do-css-um-pouco-da-historia/15195">ref.</a>
+        </div>
+    </header>
+    <hr>
+
+    <div id="principal">
+        <h1 class="center" id="tags">CSS</h1>
+        <hr class="hrsubt">
+        <h3 class="center" id="subtitulos">Seletores, Classes e IDs</h3>
+        <hr class="hrsubt">
+        <p id="fontdefault" class="center">Primeiro vamos falar dos seletores</p>
+        <br>
+        <img class="img2" src="img/Screenshot from 2025-04-01 17-17-02.png" alt="">
+        <br>
+        <p id="fontdefault" class="center">Sobre o id e class, é a maneira que chamamos uma tag dentro do css, exemplo:</p>
+        <br>
+        <img class="img2" src="img/Screenshot from 2025-04-01 17-28-14.png" alt="">
+        <br>
+        <p id="fontdefault" class="center">Acima temos uma div no html com um id chamado principal, agora vamos chamá-lo no css.</p>
+        <br>
+        <img class="img2" src="img/Screenshot from 2025-04-01 17-29-02.png" alt="">
+        <br>
+        <p id="fontdefault" class="center">Aqui podemos ver que chamei a div pelo id #principal e dentro dela tem algumas definições como margin-top, left e right.</p>
+        <br>
+        <p id="fontdefault" class="center">Não acho necessário explicar a class, apenas posso dizer que para chamar uma tag que tenha class, apenas chame com .nomeDaClass, diferente de usar #nomeDoId</p>
+        <br>
+        <p id="fontdefault" class="center">Porém não posso ignorar o fato que devo explicar a diferença de uso dos 2.<br> A class é usada para agrupamento de elementos que compartilham um mesmo estilo ou comportamento. Vários elementos podem ter a mesma classe, e você pode usar a mesma classe em muitos lugares dentro da página, exemplo podemos usar a mesma classe para definir fontes, cores entre outras coisas <br> Já o id é usado para identificar unicamente um único elemento na página. Um id deve ser único em toda a página e não pode ser atribuído a mais de um elemento. <br>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Div e Span</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">As divs são block, elas ocupam todo o espaço onde estão, enquanto o span não, ele é inline, então quando criamos uma div e depois outra, essas divs não estaram na mesma linha e sim uma embaixo da outra, já o span não, quando criamos 2 span, eles ficam na mesma linha já que ocupam apenas o espaço que é necessario para usa-ló, veja o exemplo de div e span: <a href="Páginas/Exemplo de div e span.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Border</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">As bordas são funções que nós ajuda a organizar mais os elementos e separar entre os outros, mas apenas escrever aqui não é o suficiente para mostrar a sua função logo, aqui está todos os exemplos: <a href="Páginas/Bordas.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Fontes e cores</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Temos muitas coisas para falar sobre fontes, não só family, como size, decoration entre outras coisas, faço uma menção honrosa sobre o text-align e sobre text-decoration, vamos olhar a página a seguir: <a href="Páginas/Fontes e cores.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Background</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Aqui vamos falar sobre o background a imagem de fundo de qualquer site que você faz, extremamente importante no quesito de design, vou mostrar aqui alguns tipos de background além do normal: <a href="Páginas/Background com imagem.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Modelos de caixa</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Modelos de caixa é nada mais nada menos que divs e como elas se relacionam entre si, respeitando não só o espaço entre elas mas também podendo elas está dentro uma da outra de uma maneira que não tenha conflito: <a href="Páginas/Modelo de caixa.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Posicionamento e Displays</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Esse assunto é extremamente importante e tentei explicar de forma direta e mostrando exemplo, porém recomendo que faça um estudo profundo sobre posicionamento e displays já que essa documnetação pode não ser o suficiente: <a href="Páginas/Posicionamentos.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Sobreposição</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Vamos ver como podemos fazer com que as divs façam sobreposição entre outras e se respeitem: <a href="Páginas/Sobrepondo elementos.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Tipos de links</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Aqui veremos a personalização de links e botões: <a href="Páginas/Tipos de links.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Seletores e suas especificações</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Esse assunto é importante porque sem ele o estudante não sabe organizar a folha de estilização e acaba por criar classes inuteis: <a href="Páginas/Seletores.html">Aqui</a></p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Heranças</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Ela faz parte do conteúdo de seletores porém não acho necessário explicar em outra página, é apenas o chamado de uma tag no css, assim englobando todas as mesmas tags, como h1, p e até mesmo o body inteiro</p>
+        <hr id="hrhistoria">
+        <h3 class="center" id="subtitulos">Estilização de tabela e formulario</h3>
+        <hr id="hrhistoria">
+        <p id="fontdefault" class="center">Aqui não vamos explicar como fazer uma tabela, veja isso na Documentação de HTML5, porém vou mostrar com imagem como foi criados algumas personalizações: <a href="Páginas/Estilização de tabela.html">Tabela</a><a href="Páginas/Estilização do formulario.html">Formulario</a></p>
+
+        <br>
+        <br>
+        <hr id="hrhistoria">
+        <h1 class="center">Fim da documentação CSS, volte para o HTML caso necessario</h1>  
+        <br>
+        <a href="/Documentação HTML5/index.html">Documentação do HTML</a>
+        <hr id="hrhistoria">
+    </div>
+</body>
+</html>

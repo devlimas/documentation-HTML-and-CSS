@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: justify;
+    background-color: rgb(216, 216, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+#principal{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header{
+    background: rgb(138,136,167);
+    background: radial-gradient(circle, rgba(138,136,167,1) 0%, rgba(72,72,94,1) 35%);
+    height: 1140px;
+    padding-top: 30px;
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-top: 10px;
+    height: 80px;
+}
+
+#titulohist{
+    color: black;
+}
+
+#hrhistoria{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+    border: 1px solid;
+}
+
+.html{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.imghtml {
+    height: 290px;
+    width: 210px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img2 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#historia{
+    margin-top: 90px;
+    text-align: center;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+
+#tags{
+    font-size: 40px;
+
+}
+
+#subtexto{
+    margin-left: 30px;
+    text-align: justify;
+
+}
+
+#subtitulos{
+    font-size: 30px;
+}
+
+#fontdefault{
+    font-size: 24px;
+}
+
+#fontsubdefault{
+    font-size: 19px;
+}
+
+.hrsubt{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+a{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}

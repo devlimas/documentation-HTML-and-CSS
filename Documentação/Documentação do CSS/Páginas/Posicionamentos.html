@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Documentação do CSS/CSS/Posicionamentos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="a">Displays e tipos de posicionamentos</h1>
+    <p class="a">Dentro dos posicionamentos temos: static, relative, absolute e fixed</p>
+    <div id="container">
+
+        <h2>Displays</h2>
+        <h3>Os displays são simples, vamos usar como exemplo o span, span é uma tag inline block, ocupa apenas o espaço necessario</h3>
+        <br>
+        <hr>
+        <br>
+        <span>Olá</span><span> Mundo</span>
+        <hr>
+        <h3>aqui acima temos 2 span porém olhe oque acontece quando botamos eles para herdar o elemento display block: </h3>
+        <hr>
+        <span class="block">Olá</span><span> Mundo</span>
+        <hr>
+        <h3>Olhem o span agora se tornou uma tag block, isso significa ele ele ocupada todo o espaço</h3>
+        <hr>
+        <p class="inlblock">olá</p><p class="inlblock">mundo</p>
+        <hr>
+        <h3>Aqui acima temos 2 tags "p" que são block, porém com o display inline block, conseguimos deixar elas na mesma line</h3>
+
+        <p>Eu poderia ficar aqui falando de todos os displays porém acho que você deve descobrir por conta própria a mágia delas</p>
+        <hr>
+        <h1>AVISOU, DESÇA TODA A PÁGINA, LÁ TEM EXPLICAÇÃO DO POSICIONAMENTO</h1>
+        <br>
+        <br>
+        <hr>
+        <h2>Posicionamento</h2>
+        <h3>Cada posicionamento tem sua cor no final da página tem a mesma a notação e explicação dos posicionamentos porém sem o uso deles para facilitar sua leitura e cada um com a fonte na cor de sua borda</h3>
+        <p>        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat perferendis quas modi quod quo eum autem hic accusamus optio tempore enim, officia non quos error qui, suscipit voluptas iure.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minus magni nulla nobis recusandae quod ab explicabo nemo assumenda! Iste obcaecati alias dignissimos et quisquam exercitationem rem praesentium reiciendis sit.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci ex sapiente est iure alias consequatur neque doloribus unde? Ratione optio, eos dolorem sunt possimus quis ea ipsam nostrum sequi obcaecati?
+        </p>
+        <hr>
+
+        <h1 class="estatico">Veja, este h1 e a próxima tag "p" estão com o posicionamento estático</h1>
+
+        <p class="estatico">
+            Viu, mas não mudou nada certo ? de fato, o posicionamento estático ou "static" é o posicionamento padrão e por isso não notamos diferenças
+        </p>
+
+        <h1 class="relativa">Veja, agora este h1 e a próxima tag "p estão com o posicionamento relativo, ou seja "relative"</h1>
+
+        <p class="relativa">
+            Viu, a posição relativa mudou o posicionamento do "h1" e do "p" lembre que para usar o relative, temos que usar junto com ele elementos como left, right, top e bottom, usar apenas o relative não vai mudar o posicionamento das tags
+        </p>
+
+        <h1 class="absoluto">Agora vamos para o absoluto, este h1 e a próxima tag "p estão com o posicionamento relativo, ou seja "absoluto"</h1>
+        <p class="absoluto">
+            Veja, o absoluto ou "absolute" é um posicionamento que não respeita caixas e espaçamentos
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Você ver como o "absolute" é extremamente agressivo como elemento flutuante, para pode usar um posicionamento relativo dentro de div, assim tudo dentro dela mesmo com a posição "absolute", ele vai respeitar</p>
+        <br>
+        <h1 class="fixo">Agora vamos falar do último, o fixo ou "fixed", vai está presente neste h1 e no próximo "p"</h1>
+        <p class="fixo">Agora veja, do mesmo jeito que o "absolute", o "fixed" é mais agressivo e seu maior destaque é que acompanhar o usuario dentro da página, descendo ou subindo a página ela sempre vai acompanhar</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <h1>Agora vou repetir tudo que anotei acima porém sem o uso dos posicionamentos para facilitar sua leitura</h1>
+        <br>
+        <hr>
+        <h1 id="amarelo">Veja, este h1 e a próxima tag "p" estão com o posicionamento estático</h1>
+
+        <p id="amarelo">Viu, mas não mudou nada certo ? de fato, o posicionamento estático ou "static" é o posicionamento padrão e por isso não notamos diferenças</p>
+        <hr>
+        <h1 id="vermelho">Veja, agora este h1 e a próxima tag "p estão com o posicionamento relativo, ou seja "relative"</h1>
+
+        <p id="vermelho">
+            Viu, a posição relativa mudou o posicionamento do "h1" e do "p" lembre que para usar o relative, temos que usar junto com ele elementos como left, right, top e bottom, usar apenas o relative não vai mudar o posicionamento das tags
+        </p>
+        <hr>
+        <h1 id="verde">Agora vamos para o absoluto, este h1 e a próxima tag "p estão com o posicionamento relativo, ou seja "absoluto"</h1>
+
+        <p id="verde">Veja, o absoluto ou "absolute" é um posicionamento que não respeita caixas e espaçamentos</p>
+        <hr>
+        <h1 id="azul">Agora vamos falar do último, o fixo ou "fixed", vai está presente neste h1 e no próximo "p"</h1>
+
+        <p id="azul">Agora veja, do mesmo jeito que o "absolute", o "fixed" é mais agressivo e seu maior destaque é que acompanhar o usuario dentro da página, descendo ou subindo a página ela sempre vai acompanhar</p>
+
+        <img src="/img/Screenshot from 2025-04-02 15-40-33.png" alt="">
+        <h1>Volte para a Documentação: <a href="/Documentação do CSS/index.html">Aqui</a></h1>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

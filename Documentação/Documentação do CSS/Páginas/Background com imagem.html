@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Documentação do CSS/CSS/Background com imagem.css">
+</head>
+<body>
+    <div id="corpo">
+    <h1>Como usar imagem como background</h1>
+    <p>é simples, apenas chame o "body", div ou oque quiser usar para botar o "background" e chame por "background-image: url()", depois para evitar repitição da imagem no background, use o "background-repeat:" e bote para não repetir</p>
+    <p>Já o "background-attachmet:" é usado para definismos como vai ser o comportamento da imagem com o site, se ele vai ficar fixo ou vai se mover com o rolar da página</p>
+    <p>Agora o "background-position:" já fala por ele mesmo, ele vai definir a posição da imagem no site</p>
+    <p>Por fim, podemos usar todos juntos chamando por "background: (color) url(imagem) repeat-x fixed;"</p>
+    </div>
+
+    <p class="a">Uma pena que algum background puxados diretamente da internet serem pequenas, por isso o texto escapou da imagem de fundo</p>
+
+    <hr>
+
+    <h1>esse é o background com um degrade linear e radial</h1>
+
+    <div id="linear">
+        <h1>Background linear</h1>
+        <p>Aqui posso mostrar a vocês o background linear <br>
+            para fazer ele você precisa aprender o uso do rgba, aqui o exemplo: <br>
+            background: rgb(22,22,34);
+            background: linear-gradient(90deg, rgba(22,22,34,1) 19%, rgba(33,31,98,1) 44%, rgba(18,18,116,1) 72%, rgba(0,0,255,1) 100%);
+        </p>
+    </div>
+
+    <div id="radial">
+        <h1>Background radial</h1>
+        <p>Aqui posso mostrar a vocês o background radial <br>
+            para fazer ele você precisa aprender o uso do rgba, aqui o exemplo: <br>
+            background: rgb(0,0,0);
+            background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(11,11,59,1) 36%, rgba(36,36,129,1) 64%, rgba(22,22,108,1) 82%); 
+        </p>
+    </div>
+    <br>
+
+    <hr>
+
+    <p>Além desses temos o mais simples que é apenas o background-color: onde escolhemos a cor</p>
+
+    <p>Voltar para a documentação: <a href="/Documentação do CSS/index.html">Aqui</a></p>
+</body>
+</html>

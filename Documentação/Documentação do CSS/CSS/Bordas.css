@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 90px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#conteudo{
+    border: 4px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dotted{border: 4px dotted red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dashed{border: 4px dashed red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.solid{border: 4px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.double{border: 4px double red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.groove{border: 4px groove red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ridge{border: 4px ridge red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inset{border: 4px inset red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.outset{border: 4px outset red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detalhista1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: red green yellow blue; border-width: 15px; border-style: outset;
+}
+
+.detalhista2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: red green yellow blue; border-width: 5px 6px 33px 8px; border-style: outset solid double dotted;
+}

@@ -1,0 +1,35 @@
+.tamanho1{font-size: 100px;
+}
+
+.tamanho2{font-size: 10px;
+}
+
+.familia{font-family: sans-serif;
+}
+
+.bold1{font-weight: bold;
+font-size: 20px;
+}
+
+.bold2{font-weight: 400;
+font-size: 20px;
+}
+
+.b{font-size: 20px;
+}
+
+.italico{font-style: italic;
+font-size: 20px;
+}
+
+.decoracao1{text-decoration: underline;
+}
+
+.decoracao2{text-decoration: overline;
+}
+
+.decoracao3{text-decoration: line-through;
+}
+
+.font{font: bold 40px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Documentação do CSS/CSS/Modelo de caixa.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Modelos de caixas</h1>
+    <p>Vamos começar apenas mostrando uma div e como funciona o conteudo dentro dela</p>
+
+    <div class="c1">
+        <p>conteudo</p>
+    </div>
+
+    <div>
+        <img src="/Documentação do CSS/img/Screenshot from 2025-04-02 14-20-19.png" alt="">
+        <p>Veja que o conteudo está dentro da div, não a segredo sobre o funcionamento da caixa, basta apenas adicionar oque quer dentro dela, até mesmo outras divs. </p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h2>Quando se tem uma div abaixo de outra, a maior margin prevalece entre elas, logo se uma margin tem 180px e outra 30px, os 30px vão ser a margin entre elas, porque a maior prevalece</h2>
+
+    <div class="c2">Olá, essa div tem 180px na margin inferior</div>
+    <div class="c3">Oi, essa div tem 30px na margin superior, porém está com 180px porque a margin que está entre duas div, a maior prevalece</div>
+    <br>
+    <hr>
+    <br>
+    <h2>Elementos Flutuantes</h2>
+    <br>
+    <p>Para o uso de elementos flutuantes, vou mostrar usando divs com cores:</p>
+    <div class="d2"><p>Olá div2</p></div>
+    <div class="d1"><p>Olá div1</p></div>
+    <br>
+    <p>Viu só, com o uso do elemento de estilização float no css, a tag "div2" agora está em cima da "div 1" mas porque isso acontence sendo que cada div é um bloco que ocupa a linha inteira ?</p>
+    <br>
+    <p>Simples, porque esta div estar float(flutuando), ela se tornou um elemento flutuante, logo ela não está em nenhuma linha, ela está apenas flutuando pela página podendo ocupar e ficar em cima de qualquer outra coisa, usando float com outras tags como width e height, além do padding, conseguimos fazer muitas coisas interresantes sem interferir na página de forma direta</p>
+    <br>
+    <hr>
+    <br>
+    <div class="e"><p>Conteúdo1</p></div>
+    <div class="e"><p>Conteúdo2</p></div>
+    <div class="e"><p>Conteúdo3</p></div>
+    <br>
+    <h1 class="t1">Agora vamos falar do clear, primeiro vamos repetir esses 3 conteúdos</h1>
+    <div class="e"><p>Conteúdo1</p></div>
+    <div class="e"><p>Conteúdo2</p></div>
+    <div class="e"><p>Conteúdo3</p></div>
+    <p>Agora veja que tudo que eu escrever vai se manter na posição flutuante,definida como left, para nós resolvemos isso, precisamos criar outra class dentro deste "p" ou de outra tag que você vai usar como o limite do float, usando a tag "clear: left;" dentro da tag que você escolheu, a tag não fará mais parte deste elemento flutuante</p>
+    <p>exemplo a seguir no próximo "p"</p>
+    <p class="t1"> apenas usando a tag "clear: left;" a tag não faz mais parte da mesma line e assim podemos seguir em frente sem dificuldades, você também pode usar o both que serve em ambos, left e right</p>
+    <br>
+    <hr>
+    <br>
+    <h3>segue o exemplo agora com divs dentro</h3>
+    <div class="t2">
+        <div class="e"><p>Conteúdo1</p></div>
+        <div class="e"><p>Conteúdo2</p></div>
+        <div class="e"><p>Conteúdo3</p></div>
+        <div class="t1"></div>
+    </div>
+    <p class="limit">Neste exemplo eu usei o clear dentro de uma quarta div, essa div não aparece na página porque eu não adicionei e não digitei nada dentro dela, ela só foi utilizada somente para isso, ou seja, ela foi usada como um o ponto limitador do float, talvez a gente possa chamar isso de tag de sacrificio já que foi feita apenas para isso.</p>
+    <h3>Voltar para a documentação: <a href="/Documentação do CSS/index.html">Aqui</a></h3>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

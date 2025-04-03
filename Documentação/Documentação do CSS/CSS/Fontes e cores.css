@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgb(219, 219, 219);
+}
+
+#fonte{
+    text-align: center;
+}
+
+.text1{
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.text2{
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.text3{
+    margin-left: 30px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.text4{
+    margin-left: 30px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.text5{
+    margin-left: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.estilo{
+    text-align: center;
+}
+
+.decoracao{
+    text-decoration: underline;
+}
+
+#cores{
+    color: red;
+}
+

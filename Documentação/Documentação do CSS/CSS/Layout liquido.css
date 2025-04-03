@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+}
+
+#marca {
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+    width: 75%;
+    float: right;
+}
+
+#conteudo-primario{
+    width: 64%;
+    float: right;
+    background: #d1d1d1
+}
+
+#conteudo-secundario{
+    width: 34%;
+    float: left;
+    background: #ffffff
+}
+
+#navegacao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+.nv{margin-left: 30px;}
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+    text-align: center;
+}
+
+#explicacao{
+    background: gray;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+
+#navegacao li a{
+    text-decoration: none;
+}

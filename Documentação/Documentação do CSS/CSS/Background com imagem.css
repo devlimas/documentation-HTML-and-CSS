@@ -1,0 +1,41 @@
+#corpo{background-image: url(https://travel.rakuten.com/contents/sites/contents/files/styles/max_1300x1300/public/2024-10/where-to-find-snow-in-japan_20.jpg?itok=rkiGtGVv);
+background-repeat: no-repeat;
+background-attachment: fixed;
+text-align: justify;
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+}
+
+.a{text-align: center;}
+
+#linear{
+    color: white;
+
+    background: rgb(22,22,34);
+    background: linear-gradient(90deg, rgba(22,22,34,1) 19%, rgba(33,31,98,1) 44%, rgba(18,18,116,1) 72%, rgba(0,0,255,1) 100%); 
+    
+    height: 200px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#radial{
+    margin-top: 30px;
+
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(11,11,59,1) 36%, rgba(36,36,129,1) 64%, rgba(22,22,108,1) 82%); 
+
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+body{
+    background-color: rgb(70, 117, 22);
+    margin-left: 80px;
+    margin-right: 80px;
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação do HTML</title>
+    <link rel="shortcut icon" href="img/html-5.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/Documentação HTML5/CSS/DocumentaçãoDoHTML.css">
+</head>
+<body>
+    <div class="center" id="titulo">
+        <h1 id="titulo"><b>Documentação do HTML5</b></h1>
+    </div>
+
+    <header>
+        <div class="html">
+            <p><img class="imghtml" src="img/HTML.png" alt=""></p>
+        </div>
+
+        <div id="historia">
+            <hr id="hrhistoria">
+            <h1 id="titulohist">HISTÓRIA</h1>
+            <hr id="hrhistoria">
+            <br>
+        
+            <p>Com o surgimento da web, era necessário criar uma linguagem que fosse entendida por meios de acesso diferentes. Para tanto, Tim Berners-Lee desenvolveu o HTML, com a proposta de suprir essa necessidade. Somente na década de 1990, quando o Mosaic – browser desenvolvido por Marc Andreessen – se popularizou, o HTML ganhou força e foi adotado por outros desenvolvedores e fabricante de browsers, compartilhando as mesmas convenções.</p>
+            <br>
+        
+            <p>HTML é uma abreviação de Hypertext Markup Language, ou seja, Linguagem de Marcação de Hipertexto. Resumindo, o HTML é uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos, áudio etc.) na web.</p>
+            <br>
+
+            <p>Para que você possa entender bem, o HTML é baseado no conceito de hipertexto, que são conjuntos de elementos ligados por conexões, que podem ser palavras, imagens, vídeos, áudio, documentos etc. que quando conectados, formam uma grande rede de informação. A conexão feita em um hipertexto é algo imprevisto que permite a comunicação de dados, organizando conhecimentos e guardando informações relacionadas.</p>
+        </div>
+    </header>
+    <hr>
+
+    <div id="principal">
+        <h2 class="center" id="tags">TAGS:</h2>
+        <ul class="center" id="subtexto">
+            <p class="center"><em>Primeiramente quero evidenciar que está documentação é feita para ler dentro da própria página HTML, fique a vontade para ler ela também dentro de uma IDE(como exemplo o VScode)</em></p>
+
+            <em><p class="center">Lembre que todas as tags do HTML são abreviações em inglês, exemplo: "br" que significa broken, quebra de linha</p></em>
+        </ul>
+        <br>
+
+        <!--LEMBRANDO QUE NÃO VOU UTILIZAR DO COMENTÁRIO PORQUE QUERO MONTAR TODA ESSA DOCUMENTAÇÃO DENTRO DA PÁGINA-->
+        <hr class="hrsubt">
+        <h3 class="center" id="subtitulos">TAG "H" E SUAS FAMÍLIA</h3>
+        <p class="center" id="fontdefault">Vamos começar falando da tag "h1" e sua família que vai até "h6", vou adicionar exemplo de forma crescente começando do 1 até o 6:</p>
+        <hr class="hrsubt">
+        <br>
+        <h1 id="subtitulos" class="center">Titulo pricinpal em h1</h1>
+        <p class="center" >Representa o título principal de uma página. Deve ser usado uma única vez por página para descrever o conteúdo geral da mesma.</p>
+        <br>
+        <h2 class="center" >Capítulo em h2</h2>
+        <p class="center" >Usado para subtítulos de segundo nível, que organizam seções importantes dentro da página. Normalmente, é usado para indicar subtemas ou categorias dentro do conteúdo.</p>
+        <br>
+        <h3 class="center" >Subcapítulo em h3</h3>
+        <p class="center" >Representa um subtítulo de terceiro nível. Após o terceiro nós consideramos como apenas subtítulos de níveis inferiores que devemos respeitar o uso de forma decrecente</p>
+        <br>
+        <h4 class="center" >Titulo em h4</h4>
+        <h5 class="center" >Titulo em h4</h5>
+        <h6 class="center" >Titulo em h4</h6>
+        <br>
+        <br>
+
+        <h3 class="center" >Para criamos uma linha reta na página utlizamos da tag "hr", exemplo:</h3>
+        <hr>
+        <p class="center" >A linha foi criada acima deste parágrafo</p>
+        <br>
+        <br>
+        <hr class="hrsubt">
+        <h3 id="subtitulos" class="center" >Algumas tags do HTML5 importantes</h3>
+        <hr class="hrsubt">
+        <br>
+        <p class="center" id="fontdefault"> <strong>Qual a diferença entre as tags "b" e "strong" sendo que as duas deixam o texto em negrito, exemplo:</strong></p>
+        <br>
+        <p id="fontsubdefault" class="center"><b>"HTML"</b>o texto em aspas está em negrito usando "b"</p>
+        <br>
+        <p id="fontdefault" class="center">Porém existe outra tag que usa do negrito, chamos ela de "strong", a diferença de "b" para o "strong" é que a tag "b", é mais utilizada para adicionar apenas estilização ao texto, sem ênfase na palavra. Já o "strong" utilizamos para destacar a palavra ou frase, deixando ela com mais ênfase, mais importância do negrito ao texto</p>
+        <br>
+        <p id="fontsubdefault" class="center"><strong>"HTML"</strong>o texto em aspas está em negrito usando "strong"</p>
+        <br>
+        <hr class="hrsubt">
+        <p id="fontdefault" class="center"><strong>Texto pode ser deixado em itálico utilizamos da tag "em", exemplo</strong></p>
+        <p id="fontsubdefault" class="center"><em>"HTML"</em> o texto em aspas está em itálico</p>
+        <br>
+        <hr class="hrsubt">
+        <p id="fontdefault" class="center"><strong>Para deixamos em underline, utilizamos da tag "u", exemplo</strong></p>
+        <p id="fontsubdefault" class="center"><u>"HTML"</u> o texto em aspas está em underline</p>
+        <br>
+        <hr class="hrsubt">
+        <p id="fontdefault" class="center"><strong>Com palvras, textos errados ou substituições, onde queremos evidenciar isso com um traço no meio, utilizamos do "s"</p></strong>
+        <p id="fontsubdefault" class="center"><s>"HTML"</s> o texto em aspas está em itálico</p>
+        <br>
+        <hr class="hrsubt">
+        <p id="fontdefault" class="center"><strong>"br" quebramos a linha onde a deixamos, exemplo: </strong></p>
+        <br>
+        <p id="fontsubdefault" class="center">x</p>
+        <p id="fontsubdefault" class="center">A linha acima do x foi quebrada</p>
+        <br>
+        <hr class="hrsubt">
+        <p id="fontdefault" class="center"><strong>Temos "p" como tag que usamos para a criação de parágrafos, mas porque não utilizamos do "h" em vez do "p" para textos ? porque o espaçamento entre os "p" é menor e melhor, exemplo:</strong></p>
+        <br>
+        <p id="fontsubdefault" class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto reiciendis iure atque optio deserunt fugit, labore assumenda doloribus sed? Esse perspiciatis nisi distinctio ipsam a quae, facere ea commodi.</p>
+        <p id="fontsubdefault" class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim eos, velit iste dicta earum consequatur quam. Molestias optio sunt eius, laudantium quis quo placeat ea quaerat, laborum sed, quisquam quidem?</p>
+        <br>
+        <p id="fontsubdefault" class="center">o texto foi criado utilizando a tag "Lorem", ele cria um texto aleatorio</p>
+        <br>
+        <hr class="hrsubt">
+        <br>
+        <h2 class="center" id="tags">Tags de listas:</h2>
+        <br>
+        <hr class="hrsubt">
+        <p id="fontsubdefault"><strong>Lista não ordenada</strong></p>
+        
+        <p id="fontsubdefault"><strong>Para chamamos a lista não ordenada utilizamos da tag "ul" = unordered list, e dentro a tag "li" = list add, sempre respeitando a endentação lembre exemplo:</strong></p>
+        <br>
+        <ul id="fontsubdefault" type="circle">
+            <li>Calma</li>
+            <li>Calabreso</li>
+        </ul>
+        <ul id="fontsubdefault" type="square">
+            <li>E de peixe ?</li>
+            <li>Tuuuuuuuuh é doido</li>
+        </ul>
+        <ul id="fontsubdefault" type="disc">
+            <li>Meh fil quer caxaça ?</li>
+            <li>Me dê papai</li>
+        </ul>
+        <br>
+        <p id="fontsubdefault">Agora dentro da "ul" a gente pode definir o tipo, usando dentro da própria tag "ul" um type, os types usados são: "circle", "square" e "disc". </p>
+        <br>
+        <img src="img/Screenshot from 2025-04-01 15-18-17.png" alt="">
+        <hr class="hrsubt">
+        <p id="fontsubdefault"><strong>Lista ordenada</strong></p>
+        <p id="fontsubdefault"><strong>Chamamos a lista ordenada utilizando a tag "ol" = ordered list, e dentro a tag "li" = list add, sempre respeitando a endentação lembre exemplo:</strong></p>
+        <br>
+        <ol id="fontsubdefault" type="1">
+            <li>Comida favorita ?</li>
+            <li>Bebida favorita ?</li>
+        </ol>
+        <br>
+        <ol id="fontsubdefault" type="A">
+            <li>Jogo favorito ?</li>
+            <li>Carro favorito ?</li>
+        </ol>
+        <br>
+        <ol id="fontsubdefault" type="a">
+            <li>Linguagem favorita ?</li>
+            <li>IDE favorita ?</li>
+        </ol>
+        <br>
+        <ol id="fontsubdefault" type="I">
+            <li>Doce favorito ?</li>
+            <li>Salgado favorito ?</li>
+        </ol>
+        <br>
+        <ol id="fontsubdefault" type="i">
+            <li>Acabou minhas ideia</li>
+            <li>O último vai ficar assim mesmo</li>
+        </ol>
+        <br>
+        <p id="fontsubdefault">Agora dentro da "ol" a gente pode definir o tipo, usando dentro da própria tag "ol" um type, os types usados são: "1", "A", "a", "I" e "i". </p>
+        <br>
+        <img src="img/Screenshot from 2025-04-01 15-19-53.png" alt="">
+        <hr class="hrsubt">
+        <br>
+        <h2 class="center" id="tags">Mídias</h2>
+        <br>
+        <hr class="hrsubt">
+
+        <br>
+        <p class="center" id="fontsubdefault"><strong>Imagem</strong></p>
+        <p class="center" id="fontsubdefault">Para chamar uma imagem, basta chamar a tag "img" e procurar pela imagem na pasta onde você adicionou, exemplo: <strong>"img src="" width="400px" height="150px" alt=""</strong></p>
+        <img class="img2" src="img/images.png" width="400px" height="150px" alt="">
+        <p class="center" id="fontsubdefault">Podemos alterar a largura e altura, com atributos width e height</p>
+        <img class="img2" src="img/Screenshot from 2025-04-01 15-15-59.png" alt="">
+        <br>
+        <hr class="hrsubt">
+
+        <h2 class="center" id="tags">Links</h2>
+        <br>
+        <p class="center" id="fontsubdefault">Usamos a tag "a" para criar links, assim podemos direcionar esses links para outras páginas do site ou para outro site</p>
+        <a id="fontsubdefault" href="Página1.html">Página 2</a>
+        <br>
+        <p class="center" id="fontsubdefault">Ou podemos criar uma hotbar só de links, usando a tag "a"|"a" e continuando até onde quiser</p>
+        <br>
+        <hr class="hrsubt">
+        <br>
+        <h2 id="tags">Tabelas</h2>
+        <br>
+        <p id="fontsubdefault">Para criamos uma tabela, usamos a tag "table", lembre de adicionar uma borda dentro da "table" usando "border" e a largura também "width"</p>
+        <br>
+        <p id="fontsubdefault">dentro da "table" você ainda terá que criar as linhas "tr"</p>
+        <br>
+        <p id="fontsubdefault">dentro do "tr" usamos também o "td" que seria os dados da tabela</p>
+        <br>
+        <img src="img/Screenshot from 2025-04-01 14-54-51.png" alt="">
+        <br>
+        <table border="6px" width="100%">
+
+            <tr>
+                <th>Códigos</th>
+                <th>Produtos</th>
+                <th>Preços</th>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Notebook</td>
+                <td>4.650</td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>Pc gamer</td>
+                <td>9.800</td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td>Roteador</td>
+                <td>450</td>
+            </tr>
+
+            <tr>
+                <td>04</td>
+                <td colspan="2">Nenhum</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="2">5</td>
+                <td>Nada</td>
+            </tr>
+            
+            <tr>
+                <td>Nada</td>
+            </tr>
+        </table>
+        <p id="fontsubdefault">Quando utilizo do colspan=2, isso significa que eu estou usando 2 espaços horizontais da tabela, já quando estou usando rowspan=2 isso significa que estou usando 2 falando verticais da tabela</p>
+        <p id="fontsubdefault">Também podemos usar o th que é o cabecario de qualquer tabela</p>
+        <p id="fontsubdefault">Quando usamos o "colspan" ele pode ocupar mais de um espaço na coluna</p>
+        <p id="fontsubdefault">O "rowspan" na lógica faz a mesma coisa porém com linhas, veja o Código número 5, ele está ocupado seu espaço e o do 6 também</p>
+        <br>
+        <hr class="hrsubt">
+        <h1 class="center" id="tags">Formulários</h1>
+        <hr class="hrsubt">
+        <br>
+        <p id="fontsubdefault">Dentro do conceito formulário temos muitas tags como por exemplo: text, password, marcadores e seletores</p>
+        <br>
+        <p id="fontsubdefault">Para criamos eles precisamos usar a tag "form" após isso criamos os "input" e definimos o type dele, pode ser text, password entre outros, eu não vou explicar sobre todos porque é algo que deve ser estudado e práticado bastante mas a lógica é simples apenas lembre do uso do type</p>
+        <br>
+        <hr class="hrsubt">
+
+        <img src="img/Screenshot from 2025-04-01 15-02-16.png" alt="">
+        <img src="img/Screenshot from 2025-04-01 15-02-53.png" alt="">
+        <hr class="hrsubt">
+        <br>
+        <form action="">
+            Login:<br>
+            <input type="text" name="login"><br>
+
+            Senha:<br>
+            <input type="password" name="senha"><br>
+
+            <input type="submit" value="Logar">
+
+            <h3>Cadastro</h3>
+
+            Sexo:<br>
+                <input type="radio" name="sexo" id=""> Masculino<br>
+                <input type="radio" name="sexo" id=""> Feminino<br>
+
+        <h3>Interesses</h3>
+
+            interesses:<br>
+                <input type="checkbox" name="interesses">Futebol<br>
+                <input type="checkbox" name="interesses">Basquete<br>
+                <input type="checkbox" name="interesses">Handebol<br>
+            
+        <h3>Cadastro</h3>
+
+        Sexo:<br>
+            <input type="radio" name="sexo" id=""> Masculino<br>
+            <input type="radio" name="sexo" id=""> Feminino<br>
+
+        <h3>Interesses</h3>
+
+        interesses:<br>
+            <input type="checkbox" name="interesses">Futebol<br>
+            <input type="checkbox" name="interesses">Basquete<br>
+            <input type="checkbox" name="interesses">Handebol<br>
+            <input type="checkbox" name="interesses">Futsal<br>
+
+        <h3>Estado</h3>
+
+        Estado:<br>
+        <select name="Estado" id="">
+            <option value="AL">Alagoas</option>
+            <option value="RE">Recife</option>
+            <option value="SP">São Paulo</option>
+        </select>
+
+        <h3>Observações</h3>
+
+        Observações:<br>
+        <textarea name="" id=""></textarea>
+
+        <input type="submit" value="cadastrar">
+        </form>
+
+        <br>
+        <br>
+        <hr id="hrhistoria">
+        <h1 class="center">Fim da documentação html, agora partiremos para o CSS</h1>  
+        <br>
+        <a href="/Documentação do CSS/index.html">Documentação do CSS</a>
+        <hr id="hrhistoria">
+        </div>
+    </div>
+</html>
